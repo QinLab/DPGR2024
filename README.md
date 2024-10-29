@@ -31,11 +31,17 @@ Here, we highlight some key insights from applying the DPGR model:
 ### Transmission Fitness Variability by Region
 Omicron consistently exhibited higher transmission fitness over Delta across various geographic levels (countries and continents).
 
-#### Country Level Fitness Estimation
+#### Fitness Estimation in the Country Level
 
 ![Transmission Fitness Estimation in USA](Figures/omicron_vs_delta_regression_plots/USA_regression_Omicron_vs_delta.png)
 ![Transmission Fitness Estimation in Turkey](Figures/omicron_vs_delta_regression_plots/Turkey_regression_Omicron_vs_delta.png)
 ![Transmission Fitness Estimation in Canada](Figures/omicron_vs_delta_regression_plots/Canada_regression_Omicron_vs_delta.png)
+
+#### Fitness Estimation in the Continent Level
+
+![Transmission Fitness Estimation in North America](Figures/omicron_vs_delta_regression_plots/North%20America_continent_regression_Omicron_vs_delta.png)
+![Transmission Fitness Estimation in Africa](Figures/omicron_vs_delta_regression_plots/Africacontinent_regression_Omicron_vs_delta.png)
+![Transmission Fitness Estimation in Europe](Figures/omicron_vs_delta_regression_plots/Europecontinent_regression_Omicron_vs_delta.png)
 
 <!--### Fitness Landscape Evolution
 The fitness landscape generated through pairwise DPGR analyses shows how each successive variant, from Alpha to Omicron, demonstrates a stepwise increase in transmission fitness. This model provides a clear visualization of the evolutionary trajectory in fitness between major VOCs.
