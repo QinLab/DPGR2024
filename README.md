@@ -43,6 +43,9 @@ Omicron consistently exhibited higher transmission fitness over Delta across var
 The fitness landscape generated through pairwise DPGR analyses shows how each successive variant of concerns of SARS-CoV-2 dominates over the other. This model provides a clear visualization of the evolutionary trajectory in fitness between major VOCs.
 ![Constructed Evolution Fitness Landscape of USA](Figures/fitness_landscape_plots/USA_fitness_landscape_labeled.png)
 
+### Fitness Stair of the Co-Circulating Variants
+![Fitness Stair](Figures/figures_for_step_plot/USA_variant_step_plot.png)
+
 
 <!-- ![Fitness Landscape](images/fitness_landscape.png)
 
