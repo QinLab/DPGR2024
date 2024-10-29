@@ -8,12 +8,12 @@ By addressing key issues with sampling biases and allowing for real-time epidemi
 ## Table of Contents
 - [Description](#description)
 - [Installation](#installation)
-<!-- - [Usage](#usage) -->
 - [Key Insights](#key-insights)
 - [Data Preprocessing and Sliding Window Approach](#data-preprocessing-and-sliding-window-approach)
 - [Project Structure](#project-structure)
 - [Results and Insights](#results-and-insights)
 <!-- - [License](#license) -->
+<!-- - [Usage](#usage) -->
 
 ## Installation
 To set up and run the project locally, clone this repository and install the necessary dependencies:
