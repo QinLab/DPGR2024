@@ -1,6 +1,7 @@
 # A Data-Driven Sliding-window Pairwise Comparative Approach for the Estimation of Transmission Fitness of SARS-CoV-2 Variants and Construction of the Evolution Fitness Landscape
 
 ## Table of Contents
+- [Graphical Abstract](#Graphical%20Abstract)
 - [Description](#description)
 - [Installation](#installation)
 - [Key Insights](#key-insights)
@@ -9,6 +10,9 @@
 - [Results and Insights](#results-and-insights)
 <!-- - [License](#license) -->
 <!-- - [Usage](#usage) -->
+
+## Graphical Abstract
+![Graphical Abstract](Figures/Manuscript_figures_JPG_format/Main%20Figures/Graph_Abstract.jpeg)
 
 ## Description
 This repository contains the Differential Population Growth Rate (DPGR) model, a novel sliding-window, data-driven approach to estimate and compare the transmission fitness of SARS-CoV-2 variants. DPGR utilizes pairwise comparisons across specific time windows to quantify relative fitness advantages between viral strains, creating a dynamic fitness landscape that reflects the evolutionary trends of Variants of Concern (VOCs) such as Omicron and Delta. This generalized approach is appilcable to any viral surveillance dataset of exponentially growing viral populations.
@@ -45,6 +49,7 @@ The fitness landscape generated through pairwise DPGR analyses shows how each su
 
 ### Fitness Stair of the Co-Circulating Variants
 ![Fitness Stair](Figures/figures_for_step_plot/USA_variant_step_plot.png)
+![Fitness Stair of Omicron Sub-lineages](Figures/figures_for_step_plot/North%20America_omicron_sublineage_step_plot.png)
 
 
 <!-- ![Fitness Landscape](images/fitness_landscape.png)
