@@ -34,13 +34,17 @@ Omicron consistently exhibited higher transmission fitness over Delta across var
 #### Fitness Estimation in the Country Level
 
 ![Transmission Fitness Estimation in USA](Figures/omicron_vs_delta_regression_plots/USA_regression_Omicron_vs_delta.png)
+
 ![Transmission Fitness Estimation in Turkey](Figures/omicron_vs_delta_regression_plots/Turkey_regression_Omicron_vs_delta.png)
+
 ![Transmission Fitness Estimation in Canada](Figures/omicron_vs_delta_regression_plots/Canada_regression_Omicron_vs_delta.png)
 
 #### Fitness Estimation in the Continent Level
 
 ![Transmission Fitness Estimation in North America](Figures/omicron_vs_delta_regression_plots/North%20America_continent_regression_Omicron_vs_delta.png)
+
 ![Transmission Fitness Estimation in Africa](Figures/omicron_vs_delta_regression_plots/Africacontinent_regression_Omicron_vs_delta.png)
+
 ![Transmission Fitness Estimation in Europe](Figures/omicron_vs_delta_regression_plots/Europecontinent_regression_Omicron_vs_delta.png)
 
 <!--### Fitness Landscape Evolution
