@@ -56,8 +56,10 @@ DPGR remains resilient to sampling biases. When Gaussian noise or synthetic samp
 ![Noise and Bias Robustness](images/noise_bias_robustness.png) -->
 
 ## Project Structure
+```
 ├── Code             # Jupyter notebooks for analysis and visualization
 ├── Figures          # Visualizations
 ├── Files            # Estimated Fitness values
 ├── requirements.txt # Dependency list
 └── README.md         # Project documentation
+```
