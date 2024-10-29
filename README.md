@@ -32,18 +32,11 @@ Here, we highlight some key insights from applying the DPGR model:
 Omicron consistently exhibited higher transmission fitness over Delta across various geographic levels (countries and continents).
 
 #### Fitness Estimation in the Country Level
-![Transmission Fitness Estimation in USA](Figures/omicron_vs_delta_regression_plots/USA_regression_Omicron_vs_delta.png)
-
-![Transmission Fitness Estimation in Turkey](Figures/omicron_vs_delta_regression_plots/Turkey_regression_Omicron_vs_delta.png)
-
-![Transmission Fitness Estimation in Canada](Figures/omicron_vs_delta_regression_plots/Canada_regression_Omicron_vs_delta.png)
+![Transmission Fitness Estimation in Country Level](Figures/Manuscript_figures_JPG_format/Main%20Figures/Figure_1_omicron_vs_delta_countries_short.jpg)
 
 #### Fitness Estimation in the Continent Level
-![Transmission Fitness Estimation in North America](Figures/omicron_vs_delta_regression_plots/North%20America_continent_regression_Omicron_vs_delta.png)
+![Transmission Fitness Estimation in Continent Level](Figures/Manuscript_figures_JPG_format/Main%20Figures/Figure_2_omicron_vs_delta_continents.jpg)
 
-![Transmission Fitness Estimation in Africa](Figures/omicron_vs_delta_regression_plots/Africacontinent_regression_Omicron_vs_delta.png)
-
-![Transmission Fitness Estimation in Europe](Figures/omicron_vs_delta_regression_plots/Europecontinent_regression_Omicron_vs_delta.png)
 
 ### Fitness Evolution Landscape Construction
 The fitness landscape generated through pairwise DPGR analyses shows how each successive variant of concerns of SARS-CoV-2 dominates over the other. This model provides a clear visualization of the evolutionary trajectory in fitness between major VOCs.
