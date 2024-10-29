@@ -53,4 +53,11 @@ The fitness landscape generated through pairwise DPGR analyses shows how each su
 ### Noise and Sampling Bias Robustness
 DPGR remains resilient to sampling biases. When Gaussian noise or synthetic sampling bias was introduced, the model continued to yield reliable estimates with a consistent linear trend, indicating its utility in real-world genomic surveillance settings with incomplete data.
 
-![Noise and Bias Robustness](images/noise_bias_robustness.png)
+![Noise and Bias Robustness](images/noise_bias_robustness.png) -->
+
+## Project Structure
+├── Code             # Jupyter notebooks for analysis and visualization
+├── Figures          # Visualizations
+├── Files            # Estimated Fitness values
+├── requirements.txt # Dependency list
+└── README.md         # Project documentation
