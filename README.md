@@ -17,11 +17,20 @@ By addressing key issues with sampling biases and allowing for real-time epidemi
 ![Graphical Abstract](Figures/Manuscript_figures_JPG_format/Main%20Figures/Graph_Abstract.jpeg)
 
 ## Installation
-To set up and run the project locally, clone this repository and install the necessary dependencies:
+Clone this repository to run locally::
 
 ```bash
 git clone https://github.com/QinLab/DPGR.git
 cd DPGR
+pip install -r requirements.txt
+```
+Use Conda to create an environment named `myenv` and activate it:
+```
+conda create --name myenv python=3.8
+conda activate myenv
+```
+Now, install dependencies from requirements.txt:
+```
 pip install -r requirements.txt
 ```
 
