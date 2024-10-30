@@ -6,9 +6,7 @@
 - [Overview](#Overview)
 - [Installation](#installation)
 - [Key Insights](#key-insights)
-- [Data Preprocessing and Sliding Window Approach](#data-preprocessing-and-sliding-window-approach)
 - [Project Structure](#project-structure)
-- [Results and Insights](#results-and-insights)
 <!-- - [License](#license) -->
 <!-- - [Usage](#usage) -->
 
@@ -34,20 +32,25 @@ Here, we highlight some key insights from applying the DPGR model:
 ### Transmission Fitness Variability by Region
 Omicron consistently exhibited higher transmission fitness over Delta across various geographic levels (countries and continents).
 
-#### Fitness Estimation in the Country Level
+#### Transmission Fitness Estimation in the Country Level
 ![Transmission Fitness Estimation in Country Level](Figures/Manuscript_figures_JPG_format/Main%20Figures/Figure_1_omicron_vs_delta_countries_short.jpg)
 
-#### Fitness Estimation in the Continent Level
+#### Transmission Fitness Estimation in the Continent Level
 ![Transmission Fitness Estimation in Continent Level](Figures/Manuscript_figures_JPG_format/Main%20Figures/Figure_2_omicron_vs_delta_continents.jpg)
 
-#### Fitness Estimation for Omicron Sublineages in the Continents
+#### Transmission Fitness Estimation for Omicron Sublineages in the Continents
 ![Transmission fitness estimation for Omicron Sublineages](Figures/Manuscript_figures_JPG_format/Main%20Figures/Figure_3_omicron_sub_lineages_reg_plot_CONTINENT.jpg)
 
-### Fitness Evolution Landscape Construction
+#### Pairwise Distance Matrix
+As the method is pairwise, we can directly estimate the transmission fitness of the adjacent variants like DPGRAlpha,Beta, DPGRBeta, Delta and DPGRDelta.Omicron. To infer the transmission fitness of the non-adjacent variants, DPGRAlpha,Delta, DPGRAlpha, Omicron, the property of logarithms (log(a/b) = log(a/c) + log(c/b) is used. Thus, we can infer the growth advantages of non-adjacent variants. The initial variant Alpha is considered as the root variant.
+Here, is the Pairwise Distance matrix of SARS-CoV-2 Variants of Concern for the WHO labels:
+![Pairwise Distance Matrix USA](Figures/distance_matrix_for_step_plot/USA_continent_combined_distance_matrix_for_who_labels.csv)
+
+### Tranmission Fitness Evolution Landscape
 The fitness landscape generated through pairwise DPGR analyses shows how each successive variant of concerns of SARS-CoV-2 dominates over the other. This model provides a clear visualization of the evolutionary trajectory in fitness between major VOCs.
 ![Constructed Evolution Fitness Landscape of USA](Figures/fitness_landscape_plots/USA_fitness_landscape_labeled.png)
 
-### Fitness Stair of the Co-Circulating Variants
+### Tranmission Fitness Stair of the Co-Circulating Variants
 ![Fitness Stair](Figures/figures_for_step_plot/USA_variant_step_plot.png)
 ![Fitness Stair of Omicron Sub-lineages](Figures/figures_for_step_plot/North%20America_omicron_sublineage_step_plot.png)
 
