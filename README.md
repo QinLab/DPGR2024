@@ -42,7 +42,7 @@ Omicron consistently exhibited higher transmission fitness over Delta across var
 ![Transmission fitness estimation for Omicron Sublineages](Figures/Manuscript_figures_JPG_format/Main%20Figures/Figure_3_omicron_sub_lineages_reg_plot_CONTINENT.jpg)
 
 #### Pairwise Distance Matrix
-As the method is pairwise, we can directly estimate the transmission fitness of the adjacent variants like DPGRAlpha,Beta, DPGRBeta, Delta and DPGRDelta.Omicron. To infer the transmission fitness of the non-adjacent variants, DPGRAlpha,Delta, DPGRAlpha, Omicron, the property of logarithms (log(a/b) = log(a/c) + log(c/b) is used. Thus, we can infer the growth advantages of non-adjacent variants. The initial variant Alpha is considered as the root variant.
+As the method is pairwise, we can directly estimate the transmission fitness of the adjacent variants like DPGRAlpha,Beta, DPGRBeta, Delta and DPGRDelta.Omicron. To infer the transmission fitness of the non-adjacent variants, DPGRAlpha,Delta, DPGRAlpha, Omicron, the property of logarithms (log(a/b) = log(a/c) + log(c/b) is used. Thus, we can infer the growth advantages of non-adjacent variants. The initial variant Alpha is considered as the root variant. Using the pairwise distance matrix, the relative transmission fitness landscape and transmission fitness stair are  constructed.  
 Here, is the Pairwise Distance matrix of SARS-CoV-2 Variants of Concern for the WHO labels:
 ![Pairwise Distance Matrix USA](Figures/distance_matrix_for_step_plot/USA_continent_combined_distance_matrix_for_who_labels.csv)
 
@@ -51,7 +51,9 @@ The fitness landscape generated through pairwise DPGR analyses shows how each su
 ![Constructed Evolution Fitness Landscape of USA](Figures/fitness_landscape_plots/USA_fitness_landscape_labeled.png)
 
 ### Tranmission Fitness Stair of the Co-Circulating Variants
-![Fitness Stair](Figures/figures_for_step_plot/USA_variant_step_plot.png)
+Fitness Stair of the WHO Varinats of Concern(VOCs)  
+![Fitness Stair](Figures/figures_for_step_plot/USA_variant_step_plot.png)  
+Fitness Stair of the Omicron Sublineages(BA.1* -BA.5*)  
 ![Fitness Stair of Omicron Sub-lineages](Figures/figures_for_step_plot/North%20America_omicron_sublineage_step_plot.png)
 
 
