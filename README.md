@@ -1,6 +1,7 @@
 
 # A Data-Driven Sliding-window Pairwise Comparative Approach for the Estimation of Transmission Fitness of SARS-CoV-2 Variants and Construction of the Evolution Fitness Landscape
 [Preprint Link to the Manuscript](https://www.medrxiv.org/content/10.1101/2024.07.23.24310886v1)
+[Data Source](https://gisaid.org/)
 ## Table of Contents
 - [Overview](#Overview)
 - [Installation](#installation)
