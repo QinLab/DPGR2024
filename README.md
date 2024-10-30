@@ -17,12 +17,11 @@ By addressing key issues with sampling biases and allowing for real-time epidemi
 ![Graphical Abstract](Figures/Manuscript_figures_JPG_format/Main%20Figures/Graph_Abstract.jpeg)
 
 ## Installation
-Clone this repository to run locally::
+Clone this repository to run locally:
 
 ```bash
 git clone https://github.com/QinLab/DPGR.git
 cd DPGR
-pip install -r requirements.txt
 ```
 Use Conda to create an environment named `myenv` and activate it:
 ```
