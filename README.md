@@ -56,6 +56,10 @@ Fitness Stair of the WHO Varinats of Concern(VOCs)
 Fitness Stair of the Omicron Sublineages(BA.1* -BA.5*)  
 ![Fitness Stair of Omicron Sub-lineages](Figures/figures_for_step_plot/North%20America_omicron_sublineage_step_plot.png)
 
+### Neighbor Join Tree
+The neighbor Join tree helps to understand the dynamic evolution of variants in terms of relative transmission fitness.  
+Neighbor Join Tree for the WHO Varinats for United States:  
+![Neighbor Join Tree USA](Figures/nj_tree_plots/USA_nj_tree.png)
 
 <!-- ![Fitness Landscape](images/fitness_landscape.png)
 
