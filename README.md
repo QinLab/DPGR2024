@@ -40,6 +40,8 @@ Omicron consistently exhibited higher transmission fitness over Delta across var
 #### Fitness Estimation in the Continent Level
 ![Transmission Fitness Estimation in Continent Level](Figures/Manuscript_figures_JPG_format/Main%20Figures/Figure_2_omicron_vs_delta_continents.jpg)
 
+#### Fitness Estimation for Omicron Sublineages in the Continents
+[Transmission fitness estimation for Omicron Sublineages](Figures/Manuscript_figures_JPG_format/Main Figures/Figure_3_omicron_sub_lineages_reg_plot_CONTINENT.jpg)
 
 ### Fitness Evolution Landscape Construction
 The fitness landscape generated through pairwise DPGR analyses shows how each successive variant of concerns of SARS-CoV-2 dominates over the other. This model provides a clear visualization of the evolutionary trajectory in fitness between major VOCs.
