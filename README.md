@@ -20,7 +20,7 @@ By addressing key issues with sampling biases and allowing for real-time epidemi
 Clone this repository to run locally:
 
 ```bash
-git clone https://github.com/QinLab/DPGR.git
+git clone https://github.com/QinLab/DPGR2024.git
 cd DPGR
 ```
 Use Conda to create an environment named `myenv` and activate it:
